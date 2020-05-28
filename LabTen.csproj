@@ -5,4 +5,15 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="FileExpert" Version="1.0.1" />
+    <PackageReference Include="MedallionRandom" Version="1.1.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="EasyTimer">
+      <HintPath>..\EasyTimer\Coutaq\bin\Debug\netstandard2.0\EasyTimer.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
 </Project>
